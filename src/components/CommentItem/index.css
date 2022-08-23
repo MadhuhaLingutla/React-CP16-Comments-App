@@ -1,0 +1,124 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.filled {
+  color: #0ea5e9;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.non-filled {
+  color: #475569;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.single-comment-container {
+  margin-bottom: 20px;
+}
+
+.profile-image-name-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.profile-image-container {
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.pofile-image {
+  color: white;
+}
+
+.name-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-time-stamp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: #334155;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.time-stamp {
+  color: #475569;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.comment {
+  color: #475569;
+  font-size: 15px;
+}
+.actions-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.like-container {
+  display: flex;
+  flex-direction: row;
+}
+.like-image {
+  margin-right: 15px;
+  height: 20px;
+  width: 20px;
+}
+.delete-container {
+  border: none;
+  background-color: transparent;
+}
+.delete-image {
+  height: 20px;
+  width: 20px;
+}
